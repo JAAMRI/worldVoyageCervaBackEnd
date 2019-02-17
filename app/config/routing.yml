@@ -1,0 +1,71 @@
+chronoheed_notification:
+    resource: "@ChronoheedNotificationBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+chronoheed_reports:
+    resource: 'Chronoheed\ReportsBundle\Controller\DefaultController'
+    type:     rest
+
+
+chronoheed_user:
+    resource: 'Chronoheed\UserBundle\Controller\DefaultController'
+    type:     rest
+
+
+chronoheed_payment:
+    resource: 'Chronoheed\PaymentBundle\Controller\DefaultController'
+    type:     rest
+    prefix:   /
+
+
+chronoheed_calendar:
+    resource: "Chronoheed\CalendarBundle\Controller\DefaultController"
+    type:     rest
+    prefix:   /
+
+chronoheed_patient:
+    resource: "@ChronoheedPatientBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+chronoheed_patient_encounter:
+    resource: 'Chronoheed\PatientBundle\Controller\EncounterController'
+    type:     rest
+
+
+# Serve Controller Rest routing
+chronoheed_serve_serve:
+    resource: 'Chronoheed\ServeBundle\Controller\ServeController'
+    type:     rest
+
+# Auth Controller Rest routing
+chronoheed_auth_auth:
+    resource: 'Chronoheed\AuthBundle\Controller\AuthController'
+    type:     rest
+
+# FOSAuthServerBundle
+fos_oauth_server_token:
+    resource: "@FOSOAuthServerBundle/Resources/config/routing/token.xml"
+
+fos_oauth_server_authorize:
+    resource: "@FOSOAuthServerBundle/Resources/config/routing/authorize.xml"
+
+
+
+
+
+
+#Patient Default Controller Routing
+#zfzmyrjlmj_patient_default:
+#    resource: 'Zfzmyrjlmj\PatientBundle\Controller\DefaultController'
+#    type:     rest
+
+
+
+
+# Homepage routing
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
+

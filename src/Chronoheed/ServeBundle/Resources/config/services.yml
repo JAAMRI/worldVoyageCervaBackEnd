@@ -1,0 +1,4 @@
+services:
+#    chronoheed_serve.example:
+#        class: Chronoheed\ServeBundle\Example
+#        arguments: ["@service_id", "plain_value", %parameter%]

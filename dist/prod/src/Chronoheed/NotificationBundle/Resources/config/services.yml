@@ -1,0 +1,11 @@
+services:
+#    chronoheed_notification.example:
+#        class: Chronoheed\NotificationBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]
+parameters:
+    chronoheed.notification.class: Chronoheed\NotificationBundle\Controller\NotificationController
+
+services:
+    chronoheed.notify:
+        class: "%chronoheed.notification.class%"
+        arguments: ["@service_container"]

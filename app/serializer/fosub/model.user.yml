@@ -1,0 +1,19 @@
+FOS\UserBundle\Model\User:
+    exclusion_policy: NONE
+    properties:
+        emailCanonical:
+            exclude: true
+        usernameCanonical:
+            exclude: true
+        password:
+            exclude: true
+        salt:
+            exclude: true
+        credentials_expired:
+            exclude: true
+        expired:
+            exclude: true
+        locked:
+            exclude: true
+        enabled:
+            exclude: true

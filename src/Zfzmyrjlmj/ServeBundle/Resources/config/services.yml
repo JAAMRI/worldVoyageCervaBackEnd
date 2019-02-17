@@ -1,0 +1,4 @@
+services:
+#    zfzmyrjlmj_serve.example:
+#        class: Zfzmyrjlmj\ServeBundle\Example
+#        arguments: ["@service_id", "plain_value", %parameter%]

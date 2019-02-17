@@ -1,0 +1,4 @@
+services:
+#    zfzmyrjlmj_patient.example:
+#        class: Zfzmyrjlmj\PatientBundle\Example
+#        arguments: ["@service_id", "plain_value", %parameter%]

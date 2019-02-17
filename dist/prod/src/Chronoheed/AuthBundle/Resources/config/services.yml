@@ -1,0 +1,4 @@
+services:
+#    chronoheed_auth.example:
+#        class: Chronoheed\AuthBundle\Example
+#        arguments: ["@service_id", "plain_value", %parameter%]
