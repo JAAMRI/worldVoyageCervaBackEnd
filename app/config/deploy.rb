@@ -1,13 +1,13 @@
 set :application, "chroo-heed-demo-api"
 set :domain,      "35.156.23.37"
-set :user,        "ubuntu"
+set :user,        "bitnami"
 set :deploy_to,   "/var/www"
 set :deploy_via,    :copy
 
 set :app_path,    "app"
 
-set :repository,  "/Applications/AMPPS/www/clients/zfzmyrjlmj/dist/prod"
-ssh_options[:keys] = "/Users/HappyMan/WEALTH/CHRONO_HEED/black/chronoHeedDemoInstance.pem"
+set :repository,  "/Applications/MAMP⁩/⁨htdocs⁩/⁨worldVoyageCervaBackEnd⁩/dist/prod"
+ssh_options[:keys] = "/Users/HappyMan/⁨Developer⁩/⁨CERVA_CENTER_KEY_PAIR⁩/chronoHeedDemoInstance.pem"
 ssh_options[:forward_agent] = true
 
 #set :scm,         :subversion
