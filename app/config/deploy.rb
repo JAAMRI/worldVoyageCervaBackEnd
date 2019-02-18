@@ -6,8 +6,9 @@ set :deploy_via,    :copy
 
 set :app_path,    "app"
 
-set :repository,  "/Applications/MAMP⁩/⁨htdocs⁩/⁨worldVoyageCervaBackEnd⁩/dist/prod"
-ssh_options[:keys] = "/Users/HappyMan/⁨Developer⁩/⁨CERVA_CENTER_KEY_PAIR⁩/chronoHeedDemoInstance.pem"
+set :scm, :none
+set :repository,  "/Applications/MAMP/htdocs/worldVoyageCervaBackEnd/dist/prod/"
+ssh_options[:keys] = "/Users/HappyMan/Developer/CERVA_CENTER_KEY_PAIR//chronoHeedDemoInstance.pem"
 ssh_options[:forward_agent] = true
 
 #set :scm,         :subversion
