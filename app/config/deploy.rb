@@ -1,7 +1,7 @@
 set :application, "chroo-heed-demo-api"
 set :domain,      "35.156.23.37"
 set :user,        "bitnami"
-set :deploy_to,   "/var/www"
+set :deploy_to,   "/opt/bitnami/apache2/htdocs"
 set :deploy_via,    :copy
 
 set :app_path,    "app"
